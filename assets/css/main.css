@@ -2240,6 +2240,16 @@ section,
   height: auto !important;
 }
 
+.detail-img{
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .portfolio-details .portfolio-details-slider img {
   aspect-ratio: 16/9;
   object-fit: cover;
